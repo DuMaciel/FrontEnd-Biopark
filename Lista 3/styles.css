@@ -23,11 +23,20 @@ header{
     background-color: #C3E6FD;
     box-shadow:  0px 2px 5px 1px black;
 }
+header > #head{
+    background-image: url("/img/head.png");
+    
+    background-size: contain;
 
-header h1{
-    padding: 20px;
+    padding: 5px;
+    /* filter: blur(10px); */
+}
 
+#head h1{
+    font-size: 100px;
+    color: white;
     text-align: center;
+    filter: blur(0px);
 }
 header .menu{
     display: flex;
@@ -103,6 +112,14 @@ section.conteudo{
     text-align: center;
     background-color: #C3E6FD;
     box-shadow:  0px 2px 3px 1px black;
+}
+section.conteudo ul{
+    padding: 0px 50px;
+}
+section.conteudo li{
+    padding: 10px;
+    text-align: justify;
+    
 }
 
 
